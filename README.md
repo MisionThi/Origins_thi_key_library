@@ -1,2 +1,3 @@
 # thi_key_library
-The thi key library
+Go to for documentation:
+https://thi-origins-stuff.readthedocs.io/en/latest/thi_key_library/
