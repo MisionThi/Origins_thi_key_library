@@ -1,0 +1,34 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:execute_command",
+					"command": "function thi_key_library:check_change/slot"
+				},
+				{    
+					"type": "origins:execute_command",
+					"command": "function thi_key_library:check_change/toggle_primary"
+				},
+				{    
+					"type": "origins:execute_command",
+					"command": "function thi_key_library:check_change/toggle_secondary"
+				},
+				{    
+					"type": "origins:execute_command",
+					"command": "function thi_key_library:change_powerslot/check_trigger"
+				},
+				{    
+					"type": "origins:execute_command",
+					"command": "function thi_key_library:clear_push/primary"
+				},
+				{    
+					"type": "origins:execute_command",
+					"command": "function thi_key_library:clear_push/secondary"
+				}
+			]
+    },
+    "interval": 2,
+		"hidden": false
+}

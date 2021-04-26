@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "thi_key_library:slot_change_book"
+      }
+    }
+  },
+  "rewards": {
+    "function": "thi_key_library:change_slot_book"
+  }
+}

@@ -1,0 +1,64 @@
+{
+	"powers":
+	[
+		"thi_key_library:beginbook",
+		
+		"thi_key_library:enable_trigger",
+		
+		"thi_key_library:run_function/check_change",
+		
+		"thi_key_library:active_power_check/primary/push_hold",
+		"thi_key_library:active_power_check/primary/push_ones",
+		"thi_key_library:active_power_check/primary/toggle_base",
+		"thi_key_library:active_power_check/primary/toggle_convert",
+		
+		
+		"thi_key_library:active_power_check/secondary/push_hold",
+		"thi_key_library:active_power_check/secondary/push_ones",
+		"thi_key_library:active_power_check/secondary/toggle_base",
+		"thi_key_library:active_power_check/secondary/toggle_convert",
+		
+
+		"thi_key_library:resources/slot_number/current",
+		"thi_key_library:resources/slot_number/old",
+		"thi_key_library:resources/slot_number/same",
+		
+		"thi_key_library:resources/power_slot/power_r1",
+		"thi_key_library:resources/power_slot/power_r2",
+		"thi_key_library:resources/power_slot/power_r3",
+		"thi_key_library:resources/power_slot/power_r4",
+		"thi_key_library:resources/power_slot/power_c5",
+		"thi_key_library:resources/power_slot/power_c6",
+		"thi_key_library:resources/power_slot/power_c7",
+		"thi_key_library:resources/power_slot/power_c8",
+		"thi_key_library:resources/power_slot/power_c9",
+		"thi_key_library:resources/power_slot/power_c10",
+		"thi_key_library:resources/power_slot/power_c11",
+		"thi_key_library:resources/power_slot/power_c12",
+		"thi_key_library:resources/power_slot/power_c13",
+		"thi_key_library:resources/power_slot/power_c14",
+		"thi_key_library:resources/power_slot/power_c15",
+		"thi_key_library:resources/power_slot/power_c16",
+		"thi_key_library:resources/power_slot/power_c17",
+		"thi_key_library:resources/power_slot/power_c18",
+		
+		"thi_key_library:resources/primary/push_hold",
+		"thi_key_library:resources/primary/push_ones",
+		"thi_key_library:resources/primary/toggle_base",
+		"thi_key_library:resources/primary/toggle_convert",
+		"thi_key_library:resources/primary/toggle_inverted",
+		
+		"thi_key_library:resources/secondary/push_hold",
+		"thi_key_library:resources/secondary/push_ones",
+		"thi_key_library:resources/secondary/toggle_base",
+		"thi_key_library:resources/secondary/toggle_convert",
+		"thi_key_library:resources/secondary/toggle_inverted"
+		
+		
+	],
+	"icon": "minecraft:grass_block",
+	"order": 13,
+	"impact": 0,
+	"name": "Keys",
+	"description": "Just a test origin."
+}

@@ -1,0 +1,412 @@
+{
+	"type": "origins:multiple",
+	
+	"activation_type_primary": {
+		"type": "origins:simple",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "thi_key_library:resources/primary/toggle_convert",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	
+	"activation_type_secondary": {
+		"type": "origins:simple",
+		"condition": {
+			"type": "origins:resource",
+			"resource": "thi_key_library:resources/secondary/toggle_convert",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	
+	
+	"power.r4": {
+		"type": "origins:invisibility",
+    "render_armor": false,
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 0
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 0
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_primary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_primary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 2
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 2
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_primary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 3
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 3
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_primary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 4
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 4
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_primary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 5
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 5
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_primary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 6
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 6
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_primary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 7
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 7
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_primary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 8
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 8
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_primary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 0
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 9
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_secondary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 1
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 10
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_secondary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 2
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 11
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_secondary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 3
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 12
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_secondary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 4
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 13
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_secondary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 5
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 14
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_secondary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 6
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 15
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_secondary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 7
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 16
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_secondary"
+						}
+					]
+				},
+				{
+					"type": "origins:and",
+					"conditions": [
+						{
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/slot_number/current",
+							"comparison": "==",
+							"compare_to": 8
+						},
+						{      
+							"type": "origins:resource",
+							"resource": "thi_key_library:resources/power_slot/power_r4",
+							"comparison": "==",
+							"compare_to": 17
+						},
+						{
+							"type": "origins:power_active",
+							"power": "*:*_activation_type_secondary"
+						}
+					]
+				}
+			]
+		}
+	}
+}

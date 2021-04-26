@@ -1,0 +1,23 @@
+{
+	"type": "origins:multiple",
+	"base_value": {	
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:if_else",
+			"condition": {
+				"type": "origins:power_active",
+				"power": "thi_key_library:active_power_check/secondary/toggle_base"
+			},
+			"if_action": {
+				"type": "origins:execute_command",
+				"command": "resource set @s thi_key_library:resources/secondary/toggle_base 1"
+			},
+			"else_action": {
+				"type": "origins:execute_command",
+				"command": "resource set @s thi_key_library:resources/secondary/toggle_base 0"
+			}
+		},
+		"interval": 10
+	}
+}
+		

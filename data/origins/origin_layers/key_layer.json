@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "order": 3,
+  "enabled": true,
+  "origins": [
+		"thi_key_library:keyset"
+  ],
+  "name": "Key's",
+	"auto_choose": true
+}

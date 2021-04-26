@@ -1,0 +1,28 @@
+{
+	"powers":
+	[
+		"thi_key_example:power1",
+		"thi_key_example:power2",
+		"thi_key_example:power3",
+		"thi_key_example:power4",
+		"thi_key_example:power5",
+		"thi_key_example:power6",
+		"thi_key_example:power7",
+		"thi_key_example:power8",
+		"thi_key_example:power9",
+		"thi_key_example:power10",
+		"thi_key_example:power11",
+		"thi_key_example:power12",
+		"thi_key_example:power13",
+		"thi_key_example:power14",
+		"thi_key_example:power15",
+		"thi_key_example:power16",
+		"thi_key_example:power17",
+		"thi_key_example:power18"
+	],
+	"icon": "minecraft:grass_block",
+	"order": 13,
+	"impact": 0,
+	"name": "Thi Key Library",
+	"description": "Just an example how you could setup you origins powers with the 'thie_key_library'."
+}

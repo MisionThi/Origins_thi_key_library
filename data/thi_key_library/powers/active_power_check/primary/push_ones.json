@@ -1,0 +1,29 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:change_resource",
+				"resource": "thi_key_library:resources/primary/push_ones",
+				"change": 1
+			},
+			{
+				"type": "origins:delay",
+				"ticks": 2,
+				"action": {
+					"type": "origins:execute_command",
+					"command": "resource set @s thi_key_library:resources/primary/push_ones 0"
+				}
+			}
+		]
+  },
+  "cooldown": 0,
+  "hud_render": {
+    "should_render": false
+  },
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	}
+}
