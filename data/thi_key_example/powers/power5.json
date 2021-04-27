@@ -1,4 +1,6 @@
 {
+	"name": "Power5",
+	"description": "power-type example push-hold\n(Power-number 5)",
 	"type": "origins:multiple",
 	
 	"activation_type_primary": {

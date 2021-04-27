@@ -1,4 +1,6 @@
 {
+	"name": "Power4",
+	"description": "power-type example toggle\n(Power-number 4)",
 	"type": "origins:multiple",
 	
 	"activation_type_primary": {

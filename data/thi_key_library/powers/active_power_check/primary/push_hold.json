@@ -17,5 +17,6 @@
 	"key": {
 		"key": "key.origins.primary_active",
 		"continuous": true
-	}
+	},
+	"hidden": true
 }

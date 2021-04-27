@@ -3,7 +3,7 @@
 	"min": -1,
 	"max": 17,
 	"start_value": -1,
-	"hidden": false,
+	"hidden": true,
 	"hud_render": {
 		"should_render": false,
 		"sprite_location": "origins:textures/gui/resource_bar.png",

@@ -1,4 +1,6 @@
 {
+	"name": "Power1",
+	"description": "Action_over_time example toggle\n(Power-number 1)",
 	"type": "origins:multiple",
 	
 	"activation_type_primary": {

@@ -1,4 +1,6 @@
 {
+	"name": "Power18",
+	"description": "text\n(Power-number 18)",
 	"type": "origins:multiple",
 	
 	"activation_type_primary": {

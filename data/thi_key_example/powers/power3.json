@@ -1,4 +1,6 @@
 {
+	"name": "Power3",
+	"description": "Action_over_time example push\n(Power-number 3)",
 	"type": "origins:multiple",
 	
 	"activation_type_primary": {

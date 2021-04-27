@@ -1,4 +1,6 @@
 {
+	"name": "Power16",
+	"description": "text\n(Power-number 16)",
 	"type": "origins:multiple",
 	
 	"activation_type_primary": {

@@ -2,6 +2,7 @@
 	"powers":
 	[
 		"thi_key_library:beginbook",
+		"thi_key_library:credits",
 		
 		"thi_key_library:enable_trigger",
 		
@@ -21,7 +22,6 @@
 
 		"thi_key_library:resources/slot_number/current",
 		"thi_key_library:resources/slot_number/old",
-		"thi_key_library:resources/slot_number/same",
 		
 		"thi_key_library:resources/power_slot/power_r1",
 		"thi_key_library:resources/power_slot/power_r2",
